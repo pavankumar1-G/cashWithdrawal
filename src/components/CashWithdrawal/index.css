@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.cash-withdrawal-bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.actual-content-container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+}
+.profile-container {
+  display: flex;
+}
+.initialString-container {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  color: #7c3aed;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Name {
+  color: #d4d2db;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance {
+  color: #585076;
+  font-size: 20px;
+}
+.Rupees {
+  color: #c7d2fe;
+  font-weight: 500;
+  font-size: 20px;
+}
+.currency {
+  color: #585076;
+  font-size: 20px;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-size: 25px;
+}
+.choose-sum {
+  color: #585076;
+}
+.denomination-list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .actual-content-container {
+    border-radius: 25px;
+    height: 600px;
+    width: 600px;
+  }
+  .initialString-container {
+    height: 100px;
+    width: 100px;
+  }
+  .profile {
+    font-size: 25px;
+  }
+  .Name {
+    font-size: 30px;
+    margin-left: 25px;
+  }
+
+  .balance {
+    font-size: 30px;
+  }
+  .Rupees {
+    font-size: 30px;
+  }
+  .currency {
+    font-size: 30px;
+  }
+  .withdraw {
+    font-size: 30px;
+  }
+  .choose-sum {
+    font-size: 25px;
+  }
+}

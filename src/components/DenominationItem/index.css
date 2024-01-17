@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.denomination-items {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 15px;
+}
+.denomination-btn {
+  color: #c7d2fe;
+  background-color: #382f5a;
+  border-width: 0;
+  border: 1px solid #c7d2fe;
+  height: 36px;
+  width: 104px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .denomination-btn {
+    height: 50px;
+    width: 198px;
+    font-size: 20px;
+  }
+  .denomination-items {
+  }
+}
